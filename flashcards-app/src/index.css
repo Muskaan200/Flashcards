@@ -1,0 +1,63 @@
+
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+/* Flashcard */
+.flashcard {
+  background-color: white;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 8px 20px rgba(0, 128, 0, 0.2);
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.flashcard:hover {
+  transform: scale(1.03);
+}
+
+/* Button */
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Optional: Category styles */
+.flashcard.easy {
+  border-left: 10px solid #a5d6a7;
+}
+
+.flashcard.medium {
+ border-left: 10px solid #ffee58;
+}
+
+.flashcard.hard {
+   border-left: 10px solid #ef5350;
+}
+

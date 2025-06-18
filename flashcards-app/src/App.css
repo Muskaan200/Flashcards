@@ -1,0 +1,67 @@
+body {
+  background: linear-gradient(to bottom right, #e8f5e9, #e0f7fa);
+  font-family: 'Poppins', sans-serif;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/* App container styling */
+/* App container */
+.app {
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 40px 20px;
+  background: linear-gradient(to right, #e0f7fa, #f8f9fa);
+  min-height: 100vh;
+}
+
+/* Flashcard */
+.flashcard {
+  background-color: white;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 8px 20px rgba(0, 128, 0, 0.2);
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.flashcard:hover {
+  transform: scale(1.03);
+}
+
+/* Button */
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Optional: Category styles */
+.flashcard.easy {
+  border-left: 10px solid #a5d6a7;
+}
+
+.flashcard.medium {
+ border-left: 10px solid #ffee58;
+}
+
+.flashcard.hard {
+   border-left: 10px solid #ef5350;
+}
