@@ -60,4 +60,10 @@ button:hover {
 .flashcard.hard {
    border-left: 10px solid #ef5350;
 }
+button:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
 
